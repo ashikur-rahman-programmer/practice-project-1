@@ -101,3 +101,82 @@ body {
   width: 100%;
   vertical-align: middle;
 }
+
+/* section skills */
+
+#skill {
+  padding-top: 130px;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-skill {
+  /* display: flex;
+  flex-direction: column; */
+  /* gap: 130px; */
+  text-align: center;
+  /* justify-content: center; */
+}
+
+.section-skill .h-2 {
+  font-size: 40px;
+  line-height: 76px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 50px;
+}
+.skill-cards {
+  display: flex;
+  /* gap: 86px; */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.skill-cards .card img {
+  max-width: 92px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.card h3 {
+  font-size: 25px;
+  line-height: 76px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+}
+.card p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+.skill-bg {
+  max-height: 322px;
+  height: 100%;
+  background: url("../images/gradient1.png"), url("../images/watch.png");
+  padding-bottom: 50px;
+  margin-bottom: 130px;
+  border-radius: 10px;
+}
+
+.skills-content {
+  max-width: 460px;
+  width: 100%;
+  text-align: start;
+  padding: 100px 0 0 100px;
+}
+.skills-content h2 {
+  font-size: 30px;
+  margin-bottom: 24px;
+  color: #ffff;
+  font-weight: 700;
+}
+
+.skills-content button {
+  padding: 16px 30px;
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  color: rgba(0, 106, 255, 1);
+  font-size: 16px;
+}
